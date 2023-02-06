@@ -46,12 +46,6 @@ const NavbarSection = () => {
             >
               Dashboard
             </NavLink>
-            <NavLink
-              to="/readingHistory"
-              className="bg-[#85CDFD] w-[80%] p-2 rounded-md text-white font-bold text-center"
-            >
-              Reading History
-            </NavLink>
           </div>
         </div>
       </div>

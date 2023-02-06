@@ -17,10 +17,10 @@ const AllContent = () => {
   return (
     <div
       className={`bg-gray-200 ${
-        contents.length >= 8 ? "h-[100%] pb-14" : "h-[94vh]"
+        contents.length >= 8 ? "h-[100%] pb-14" : ""
       } rounded-md relative`}
     >
-      <div className="z-20 relative top-10 ">
+      <div className="z-20 py-10 ">
         <div
           className={`bg-white ${
             contents.length >= 8 ? "h-full" : "h-[94vh]"
@@ -75,7 +75,7 @@ const AllContent = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-0 bg-[#85CDFD] hover:bg-sky-500 w-full h-20 rounded-md"></div>
+      <div className="absolute top-0  w-full h-20 rounded-md"></div>
     </div>
   );
 };

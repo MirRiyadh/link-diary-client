@@ -36,7 +36,7 @@ const AddTags = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-0 bg-[#85CDFD] w-full h-20 rounded-md"></div>
+      <div className="absolute top-0  w-full h-20 rounded-md"></div>
     </div>
   );
 };

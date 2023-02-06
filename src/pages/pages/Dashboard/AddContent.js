@@ -97,8 +97,8 @@ const AddContent = () => {
                   <p className="font-bold text-gray-500">please select tags </p>
                 )}
               </div>
-              <input
-                className="text-lg border border-gray-400 rounded-md px-3 py-2 ring  focus:ring-3 outline-4  focus:outline outline-gray-500"
+              <textarea
+                className="h-32 text-lg border border-gray-400 rounded-md px-3 py-2 ring  focus:ring-3 outline-4  focus:outline outline-gray-500"
                 placeholder="description"
                 {...register("description", { required: true })}
                 required
@@ -111,7 +111,7 @@ const AddContent = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-0 bg-[#85CDFD] w-full h-20 rounded-md"></div>
+      <div className="absolute top-0  w-full h-20 rounded-md"></div>
     </div>
   );
 };
